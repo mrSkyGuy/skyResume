@@ -1,8 +1,9 @@
 import './App.css'
+import Welcome from './components/Welcome'
 
 
 export default function App() {
     return (
-      <h1>hello world</h1>
+      	<Welcome />
     )
 }
