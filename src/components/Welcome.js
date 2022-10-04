@@ -1,6 +1,5 @@
 import React from 'react'
 import Aos from 'aos'
-import 'aos/dist/aos.css'
 import backgroundImg from '../img/bg-1.jpg'
 
 import useMediaQuery from '@mui/material/useMediaQuery'
@@ -16,8 +15,11 @@ export default function Welcome() {
 
     return (
         <Box 
-        sx={{
-            backgroundImage: `url(${backgroundImg})`,
+            sx={{
+                backgroundImage: `
+                    linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, #000 100%), 
+                    url(${backgroundImg})
+                `,
                 backgroundSize: "auto 100vh",
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "center",
@@ -28,7 +30,7 @@ export default function Welcome() {
                 width: "100%",
                 overflow: "hidden"
             }}
-            >
+        >
             <Container 
                 data-aos="fade-up"
                 maxWidth="md" 
@@ -44,7 +46,7 @@ export default function Welcome() {
                     color: "#fff",
                     textAlign: "center",
                     transition: ".4s",
-                    boxShadow: "0px 4px 100px 15px #35b4b0",
+                    boxShadow: "0px 4px 50px 8px #35b4b0",
                     "&:hover": {
                         transform: "scale(1.02) !important"
                     }
