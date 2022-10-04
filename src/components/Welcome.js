@@ -1,15 +1,23 @@
+import React from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import backgroundImg from '../img/bg-1.jpg'
+
 import useMediaQuery from '@mui/material/useMediaQuery'
 import { Box, Container, Typography } from '@mui/material'
 
 
 export default function Welcome() {
+    React.useEffect(() => {
+        Aos.init({ duration: 700 })
+    }, [])
+
     const m700 = useMediaQuery("(max-width: 700px)")
 
     return (
         <Box 
-            sx={{
-                backgroundImage: `url(${backgroundImg})`,
+        sx={{
+            backgroundImage: `url(${backgroundImg})`,
                 backgroundSize: "auto 100vh",
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "center",
@@ -17,21 +25,31 @@ export default function Welcome() {
                 alignItems: "center",
                 justifyContent: "center",
                 height: "100vh",
-                width: "100%"
-            }}
-        >
-            <Container maxWidth="md" sx={{
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-                justifyContent: "center",
                 width: "100%",
-                height: "200px",
-                borderRadius: m700 ? "0" : "24px",
-                backdropFilter: "blur(12px)",
-                color: "#fff",
-                textAlign: "center"
-            }}>
+                overflow: "hidden"
+            }}
+            >
+            <Container 
+                data-aos="fade-up"
+                maxWidth="md" 
+                sx={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    width: "100%",
+                    height: "200px",
+                    borderRadius: m700 ? "0" : "20px",
+                    backdropFilter: "blur(12px)",
+                    color: "#fff",
+                    textAlign: "center",
+                    transition: ".4s",
+                    boxShadow: "0px 4px 100px 15px #35b4b0",
+                    "&:hover": {
+                        transform: "scale(1.02) !important"
+                    }
+                }}
+            >
                 <Typography variant={m700 ? 'h5' : 'h4'} component='h2' mt="auto">
                     Hi there. I'm Zaur, 17 yo, Moscow student
                 </Typography>
