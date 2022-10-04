@@ -44,7 +44,7 @@ export default function TechStack() {
             }}
             >
             <Typography variant={m700 ? 'h2': 'h1'} component='h1' color="#fff">
-                {"<devPath />"}
+                {"<DevPath />"}
             </Typography>
             <Container 
                 data-aos="fade-down"
