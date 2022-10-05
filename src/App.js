@@ -2,7 +2,7 @@ import './App.scss'
 import 'aos/dist/aos.css'
 
 import Welcome from './components/Welcome'
-import TechStack from './components/DevPath'
+import InfoSlides from './components/InfoSlides'
 import NextButton from './components/NextButton'
 
 
@@ -13,8 +13,8 @@ export default function App() {
 			<NextButton num={1} />
 		</div>
 		<div className="section">
-			<TechStack />
-			<NextButton up={true}/>
+			<InfoSlides />
+			{/* <NextButton up={true}/> */}
 		</div>
 	</>)
 }

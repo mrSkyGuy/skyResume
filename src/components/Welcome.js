@@ -62,7 +62,7 @@ export default function Welcome() {
                     </Typography> FrontEnd developer
                 </Typography>
                 <Typography variant="caption" sx={{mt: "auto"}}>
-                    Design isn't my strong suit, so don't evaluate strictly)
+                    Design isn't my strong side, so don't evaluate strictly)
                 </Typography>
             </Container>
         </Box>
