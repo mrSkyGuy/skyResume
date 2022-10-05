@@ -92,7 +92,7 @@ export default function TechStack() {
                                     lineHeight: "0",
                                     fontSize: m570 ? "1.3em" : "1.5em" 
                                 }}>
-                                Start learning Python 
+                                Learning Python 
                             </Typography>
                             <Typography sx={{ fontSize: m570 ? "1em" : "1.2em" }}>Basics on YouTube</Typography>
                         </TimelineContent>
@@ -124,7 +124,7 @@ export default function TechStack() {
                                     lineHeight: "0",
                                     fontSize: m570 ? "1.3em" : "1.5em" 
                                 }}>
-                                Join to Yandex. Lyceum  
+                                Yandex. Lyceum  
                             </Typography>
                             <Typography sx={{ fontSize: m570 ? "1em" : "1.2em" }}>Basics, algorithms, OOP</Typography>
                         </TimelineContent>
@@ -156,9 +156,9 @@ export default function TechStack() {
                                     lineHeight: "0",
                                     fontSize: m570 ? "1.3em" : "1.5em" 
                                 }}>
-                                Graduate from university  
+                                Graduate from Y.Lyceum  
                             </Typography>
-                            <Typography sx={{ fontSize: m570 ? "1em" : "1.2em" }}>Flask, JavaScript, HTML, CSS (SCSS)</Typography>
+                            <Typography sx={{ fontSize: m570 ? "1em" : "1.2em" }}>Flask, JS, HTML, CSS (SCSS)</Typography>
                         </TimelineContent>
                     </TimelineItem>
                     <TimelineItem>
@@ -190,8 +190,12 @@ export default function TechStack() {
                              }}>
                                 Freelance
                             </Typography>
-                            <Typography sx={{ fontSize: m570 ? "1em" : "1.2em" }}>bots: aiogram + telethon</Typography>
-                            <Typography sx={{ fontSize: m570 ? "1em" : "1.2em" }}>sites: FastAPI + React.js</Typography>
+                            <Typography sx={{ fontSize: m570 ? "1em" : "1.2em" }}>
+                                bots{!m700 && ": aiogram + telethon"}
+                            </Typography>
+                            <Typography sx={{ fontSize: m570 ? "1em" : "1.2em" }}>
+                                sites{!m700 && ": FastAPI + React.js"}
+                            </Typography>
                         </TimelineContent>
                     </TimelineItem>
                     <TimelineItem>
@@ -221,7 +225,7 @@ export default function TechStack() {
                                     lineHeight: "0",
                                     fontSize: m570 ? "1.3em" : "1.5em" 
                                 }}>
-                                Success joining to Yandex. Intensive  
+                                Yandex. Intensive  
                             </Typography>
                             <Typography sx={{ fontSize: m570 ? "1em" : "1.2em" }}>i hope :)</Typography>
                         </TimelineContent>
