@@ -14,7 +14,7 @@ export default function App() {
 		</div>
 		<div className="section">
 			<TechStack />
-			<NextButton num={2} />
+			<NextButton up={true}/>
 		</div>
 	</>)
 }

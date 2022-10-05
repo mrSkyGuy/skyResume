@@ -17,7 +17,7 @@ export default function Welcome() {
         <Box 
             sx={{
                 backgroundImage: `
-                    linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, #000 100%), 
+                    linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .7) 100%), 
                     url(${backgroundImg})
                 `,
                 backgroundSize: "auto 100vh",

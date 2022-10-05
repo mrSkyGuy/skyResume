@@ -1,13 +1,18 @@
 import React from 'react'
 import KeyboardDoubleArrowDownOutlinedIcon from '@mui/icons-material/KeyboardDoubleArrowDownOutlined'
+import KeyboardDoubleArrowUpOutlinedIcon from '@mui/icons-material/KeyboardDoubleArrowUpOutlined'
 import { Button } from '@mui/material'
 
 
-export default function NextButton({ num }) {
+export default function NextButton({ num, up }) {
+
     return (
         <Button
             onClick={() => {
-                window.scrollTo({ top: num * window.innerHeight, behavior: "smooth" })
+                window.scrollTo({ 
+                    top: up ? 0 : num * window.innerHeight, 
+                    behavior: "smooth" 
+                })
             }}
             size="large"
             sx={{
@@ -22,7 +27,11 @@ export default function NextButton({ num }) {
                 }
             }}
         >
-            <KeyboardDoubleArrowDownOutlinedIcon fontSize='large' />
+            {
+                up ? <KeyboardDoubleArrowUpOutlinedIcon fontSize='large' /> :
+                <KeyboardDoubleArrowDownOutlinedIcon fontSize='large' />
+
+            }
         </Button>
     )
 }
