@@ -15,7 +15,7 @@ export default function Contacts() {
     const m400 = useMediaQuery("(max-width: 400px)")
 
     return (<>
-        <Typography variant={m700 ? 'h2': 'h1'} component='h1' color="#fff">
+        <Typography variant={m700 ? 'h2': 'h1'} component='h1' color="#fff" mb={1.5}>
                 {"<Contacts />"}
         </Typography>
         <Container 

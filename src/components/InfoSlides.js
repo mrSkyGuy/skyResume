@@ -40,7 +40,7 @@ export default function InfoSlides() {
                 overflow: "hidden"
             }}
         >
-            <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center", width: "100%" }}>
+            <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center", width: "100%", height: "100vh" }}>
                 {value === 0 ? <Projects /> : value === 1 ? <DevPath /> : value === 2 ? <Contacts /> : null}
             </Box>
             <BottomNavigation

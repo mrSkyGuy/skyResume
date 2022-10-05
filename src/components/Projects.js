@@ -5,7 +5,7 @@ export default function Projects() {
     const m700 = useMediaQuery("(max-width: 700px)")
 
     return (<>
-        <Typography variant={m700 ? 'h2': 'h1'} component='h1' color="#fff">
+        <Typography variant={m700 ? 'h2': 'h1'} component='h1' color="#fff" mb={1.5}>
                 {"<Projects />"}
         </Typography>
         <Container 

@@ -23,11 +23,11 @@ export default function DevPath() {
     const m570 = useMediaQuery("(max-width: 570px)")
 
     return (<>
-        <Typography variant={m700 ? 'h2': 'h1'} component='h1' color="#fff">
+        <Typography variant={m700 ? 'h2': 'h1'} component='h1' color="#fff" mb={1.5}>
             {"<DevPath />"}
         </Typography>
         <Container 
-            data-aos="fade-down"
+            data-aos="fade"
             maxWidth="md" 
             sx={{
                 display: "flex",
