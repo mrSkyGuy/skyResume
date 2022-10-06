@@ -1,4 +1,5 @@
-import { Container, Typography, useMediaQuery } from "@mui/material"
+import { Container, Typography, useMediaQuery, Box } from "@mui/material"
+import Grid2 from "@mui/material/Unstable_Grid2"
 
 
 export default function Projects() {
@@ -14,7 +15,10 @@ export default function Projects() {
             sx={{
                 display: "flex",
                 alignItems: "center",
+                justifyContent: "center",
+                flexDirection: "column",
                 padding: "16px 32px",
+                gap: "8px",
                 borderRadius: m700 ? "0" : "20px",
                 backdropFilter: "blur(12px)",
                 color: "#fff",
@@ -26,7 +30,43 @@ export default function Projects() {
                 }
             }}
         >
-            Projects
+            <Typography variant="h5" component="span" sx={{ whiteSpace: "pre-wrap" }}>
+                Among all my projects, I would like to highlight only a few I'm really proud of.{"\n"}
+                There are 2 sites and 1 bot
+            </Typography>
+            <Grid2 container spacing={2}>
+                <Grid2 xs={6}>
+                    <Box>
+                        <Typography variant="h6">amv</Typography>
+                        <Typography variant="body1">
+                            This is pet project. That's like TikTok, but just for anime lovers. 
+                            Now the site is intend only for computer users, because I'm still haven't made the mobile version :(
+                        </Typography>
+                        <Typography variant="caption">
+                            (full documentation can be studied in the <a href="https://github.com/mrskyguy/amv.net" target="_blank" rel="noopener noreferrer">
+                                <Typography color="#fff" variant="caption" sx={{ textDecoration: "underline" }}>github repository</Typography>
+                            </a>)
+                        </Typography>
+                    </Box>
+                </Grid2>
+                <Grid2 xs={6}>
+                    <Box>
+                        <Typography variant="h6">probiotic</Typography>
+                        <Typography variant="body1">
+                            It's commercial project. Online shop for buying vitamins, probiotics and normoflorins.
+                            It's almost finished (1% remained). In the near future you will able to see on the Internet.  
+                        </Typography>
+                    </Box>
+                </Grid2>
+                <Grid2 xs={12}>
+                    <Box>
+                        <Typography variant="h6">autopostingbot</Typography>
+                        <Typography variant="body1">
+                            That's also commercial project. Telegram bot to automate the mailing of chats
+                        </Typography>
+                    </Box>
+                </Grid2>
+            </Grid2>
         </Container>
     </>)
 }

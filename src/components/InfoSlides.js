@@ -23,7 +23,7 @@ export default function InfoSlides() {
         <Box 
             sx={{
                 backgroundImage: `
-                    linear-gradient(to top, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, .7) 100%), 
+                    linear-gradient(to top, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 1) 100%), 
                     linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, .7) 100%), 
                     url(${backgroundImg})
                 `,
@@ -53,6 +53,8 @@ export default function InfoSlides() {
                 sx={{
                     background: "transparent",
                     backdropFilter: "blur(12px)",
+                    borderRadius: "15px",
+                    mb: 3
                 }}
             >
                 <BottomNavigationAction label="Projects" icon={<EmojiEventsOutlinedIcon />} sx={{ color: "#fff" }} />

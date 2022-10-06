@@ -17,7 +17,7 @@ export default function NextButton({ num, up }) {
             size="large"
             sx={{
                 position: "absolute",
-                bottom: "8px",
+                bottom: "56px",
                 borderRadius: "50%",
                 height: "60px",
                 color: "#35b4b0",
