@@ -31,16 +31,16 @@ export default function Projects() {
             }}
         >
             <Typography variant="h5" component="span" sx={{ whiteSpace: "pre-wrap" }}>
-                Among all my projects, I would like to highlight only a few I'm really proud of.{"\n"}
-                There are 2 sites and 1 bot
+                Among all my projects, I would like to highlight only few I'm really proud of:{"\n"}
+                2 web-sites and 1 bot
             </Typography>
             <Grid2 container spacing={2}>
                 <Grid2 xs={6}>
                     <Box>
                         <Typography variant="h6">amv</Typography>
                         <Typography variant="body1">
-                            This is pet project. That's like TikTok, but just for anime lovers. 
-                            Now the site is intend only for computer users, because I'm still haven't made the mobile version :(
+                            This is a pet project. Prototype of TikTok, but just for anime lovers. 
+                            Now the web-site exists only for computer users, because I still haven't made the mobile version :(
                         </Typography>
                         <Typography variant="caption">
                             (full documentation can be studied in the <a href="https://github.com/mrskyguy/amv.net" target="_blank" rel="noopener noreferrer">
@@ -53,8 +53,8 @@ export default function Projects() {
                     <Box>
                         <Typography variant="h6">probiotic</Typography>
                         <Typography variant="body1">
-                            It's commercial project. Online shop for buying vitamins, probiotics and normoflorins.
-                            It's almost finished (1% remained). In the near future you will able to see on the Internet.  
+                            It's a commercial project. Online shop for buying vitamins, probiotics and normoflorins.
+                            It's almost done (99% of the work is completed). In the near future you will able to see on the Internet.  
                         </Typography>
                     </Box>
                 </Grid2>
@@ -62,7 +62,7 @@ export default function Projects() {
                     <Box>
                         <Typography variant="h6">autopostingbot</Typography>
                         <Typography variant="body1">
-                            That's also commercial project. Telegram bot to automate the mailing of chats
+                            That's also a commercial project. Telegram bot to automate chat mailing
                         </Typography>
                     </Box>
                 </Grid2>

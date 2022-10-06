@@ -53,7 +53,7 @@ export default function Welcome() {
                 }}
             >
                 <Typography variant={m700 ? 'h5' : 'h4'} component='h2' mt="auto">
-                    Hi there. I'm Zaur, 17 yo, Moscow student
+                    Hi there. I'm Zaur, 17 yo, student from Moscow 
                 </Typography>
                 <Typography variant="subtitle2" component="span">and also</Typography>
                 <Typography variant={m700 ? 'h6' : 'h5'} component="p">
