@@ -56,7 +56,7 @@ export default function DevPath() {
                         variant="body1"
                         color="#fff"
                     >
-                        Summer, 2k19
+                        Summer, 2019
                     </TimelineOppositeContent>
                     <TimelineSeparator>
                         <TimelineConnector />
@@ -88,7 +88,7 @@ export default function DevPath() {
                         variant="body1"
                         color="#fff"
                     >
-                        Autumn, 2k20
+                        Autumn, 2020
                     </TimelineOppositeContent>
                     <TimelineSeparator>
                         <TimelineConnector />
@@ -120,7 +120,7 @@ export default function DevPath() {
                         variant="body1"
                         color="#fff"
                     >
-                        Spring, 2k22
+                        Spring, 2022
                     </TimelineOppositeContent>
                     <TimelineSeparator>
                         <TimelineConnector />
@@ -152,7 +152,7 @@ export default function DevPath() {
                         variant="body1"
                         color="#fff"
                     >
-                        Summer, 2k22
+                        Summer, 2022
                     </TimelineOppositeContent>
                     <TimelineSeparator>
                         <TimelineConnector />
@@ -189,7 +189,7 @@ export default function DevPath() {
                         variant="body1"
                         color="#fff"
                     >
-                        Autumn, 2k22
+                        Autumn, 2022
                     </TimelineOppositeContent>
                     <TimelineSeparator>
                         <TimelineConnector />

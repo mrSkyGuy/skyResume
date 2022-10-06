@@ -95,10 +95,10 @@ export default function Contacts() {
                 </Box>
             </Container>
             <Container maxWidth="sx">
-                <Typography variant="h6" component="span" sx={{ fontSize: m400 ? "1em" : "1.3em" }}>
+                <Typography variant="h6" component="span" sx={{ fontSize: m400 ? "1em" : "1.3em", fontWeight: "normal" }}>
                     Here you can chat me, I will be glad to see your message. 
                     At the moment, <Typography variant="h6" component="span" sx={{ 
-                        color: "#0f0", display: "inline", fontSize: "inherit"
+                        display: "inline", fontSize: "inherit", fontWeight: "bold"
                     }}>hirable</Typography> :)
                 </Typography>
             </Container>
