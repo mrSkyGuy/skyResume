@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/skyResume/static/css/main.023f127e.css",
+    "main.js": "/skyResume/static/js/main.6d941d9c.js",
+    "static/media/bg-1.jpg": "/skyResume/static/media/bg-1.174dbdd16fc0e845462b.jpg",
+    "static/media/bg-3.jpg": "/skyResume/static/media/bg-3.2e1a661a1164499c3bf6.jpg",
+    "index.html": "/skyResume/index.html",
+    "main.023f127e.css.map": "/skyResume/static/css/main.023f127e.css.map",
+    "main.6d941d9c.js.map": "/skyResume/static/js/main.6d941d9c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.023f127e.css",
+    "static/js/main.6d941d9c.js"
+  ]
+}
